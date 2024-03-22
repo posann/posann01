@@ -3,7 +3,6 @@ const EXPERIENCES = [
         name: "Frontend Developer",
         skill: [
             "Javascript",
-            "Node.js",
             "React.js",
             "Next.js",
             "Tailwind CSS",
@@ -19,6 +18,7 @@ const EXPERIENCES = [
             "PHP",
             "Laravel",
             "Codeigniter",
+            "Node.js",
             "Express.js",
             "MySQL",
             "MongoDB",
@@ -38,6 +38,8 @@ const EXPERIENCES = [
             "RXJava",
             "Koin",
             "Coroutine",
+            "Firebase",
+            "Lottie"
         ]
     },
 
