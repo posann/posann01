@@ -33,7 +33,7 @@ function Homepage() {
                   width={500}
                   height={500}
                   className="w-32 h-32 rounded-md object-cover"
-                  src="/photo.jpg"
+                  src="/photo.png"
                   alt=""
                 />
               <div className="flex flex-col h-100 ml-4 gap-y-2">
