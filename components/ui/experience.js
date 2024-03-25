@@ -5,8 +5,8 @@ const Experience = (data) => {
     const dataSkill = [...skill]
     return (
         <div>
-            <div className="drop-shadow-2xl mt-4 flex flex-col rounded-md p-4 transition ease-in-out duration-500 bg-neutral-900">
-                <div className="font-bold font-deca text-xl text-neutral-300">
+            <div className="drop-shadow-2xl mt-4 flex flex-col rounded-md p-4 transition ease-in-out duration-500 bg-[#161311] hover:bg-gradient-to-tr hover:from-[#121212] hover:to-[#1f1e1e]">
+                <div className="font-bold font-deca text-xl text-neutral-400">
                     {name}
                 </div>
                 <div className="flex flex-wrap gap-x-1 gap-y-2 justify-start text-[12px] font-RubikRegular my-4">

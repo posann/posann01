@@ -11,7 +11,7 @@ const Certificate = () => {
               {
                 CERTIFICATES.map((item, index) => {
                   return (
-                    <div key={index} className="mt-3 flex items-center border rounded-md border-neutral-600">
+                    <div key={index} className="cursor-pointer mt-3 flex items-center border rounded-md border-neutral-700 hover:bg-neutral-700">
                         <Link href={item.link} target={item.target}>
                             <p className="p-2 text-[12px] font-RubikRegular text-neutral-400">{item.title}</p>
                         </Link>

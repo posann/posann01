@@ -37,14 +37,14 @@ function Homepage() {
                   alt=""
                 />
               <div className="flex flex-col h-100 ml-4 gap-y-2">
-                <h1 className="font-RubikBold text-3xl text-neutral-300">
+                <h1 className="font-RubikBold text-3xl text-neutral-200">
                   {MYPROFILE.name}
                 </h1>
                 <p className="-mt-1 text-xl font-RubikMedium text-neutral-400">
                   {MYPROFILE.position}
                 </p>
-                <Link href={"ahmadfauzan.pdf"} className="w-fit p-1 border border-neutral-600 rounded-md">
-                  <div className="flex flex-row gap-x-2 font-RubikRegular text-[14px] text-neutral-400 items-center">
+                <Link href={"ahmadfauzan.pdf"} className="w-fit p-2 border border-neutral-600 rounded-md">
+                  <div className="flex flex-row gap-x-2 font-RubikRegular text-[12px] text-neutral-400 items-center">
                     <PiDownload />
                     <p>Resume</p>
                   </div>
@@ -58,7 +58,7 @@ function Homepage() {
                     SOCIAL_MEDIA.map((item, index) => {
                       return (
                         <Link key={item.name} href={item.url}>
-                          <div className="bg-neutral-700/50 p-2 rounded-md flex items-center justify-center">
+                          <div className="bg-neutral-700/50 hover:bg-neutral-700 p-2 rounded-md flex items-center justify-center">
                             {item.icon}
                           </div>
                         </Link>

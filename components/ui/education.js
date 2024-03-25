@@ -9,10 +9,10 @@ const Education = () => {
               EDUCATIONS.map((item, index) => {
                 return (
                   <li key={index} >
-                    <div className="mt-3 flex justify-between items-center">
+                    <div className="cursor-pointer mt-3 flex justify-between items-center">
                       <div className="flex gap-x-3">
                         <div className="gap-y-5">
-                          <h3 className="text-[16px] text-neutral-400 font-RubikMedium">{item.name}</h3>
+                          <h3 className="text-[16px] hover:text-neutral-300 text-neutral-400 font-RubikMedium">{item.name}</h3>
                           <p className="text-[14px] font-RubikRegular text-neutral-500 " >{item.prodi}</p>
                           <p className="text-[14px] font-RubikMedium text-neutral-500">
                           {item.location}
