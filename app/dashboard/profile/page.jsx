@@ -43,7 +43,7 @@ function Homepage() {
                 <p className="-mt-1 text-xl font-RubikMedium text-neutral-400">
                   {MYPROFILE.position}
                 </p>
-                <Link href={"ahmadfauzan.pdf"} className="w-fit p-2 border border-neutral-600 rounded-md">
+                <Link href={"ahmadfauzan.pdf"} className="w-fit p-2 border border-neutral-600 hover:bg-neutral-600 rounded-md">
                   <div className="flex flex-row gap-x-2 font-RubikRegular text-[12px] text-neutral-400 items-center">
                     <PiDownload />
                     <p>Resume</p>
