@@ -1,28 +1,23 @@
 const WORK_HISTORY = [
     {
-        company: 'Telkom Makassar',
-        position: 'Engineer',
-        duration: 'AUG 2018 - DEC 2022',
-    },
-    {
-        company: 'PT. Ardisi Rasya',
+        company: 'Pesantren Teknologi Informasi dan Komunikasi',
         position: 'Web Developer',
-        duration: 'JUN 2021 - APR 2022',
+        duration: 'MAY 2019 - DEC 2020',
     },
     {
-        company: 'PT. Ardisi Rasya',
-        position: 'Digital Marketing',
-        duration: 'JAN 2022 - APR 2022',
+        company: 'Ardisi Rasya Herbalindo',
+        position: 'Web Developer',
+        duration: 'MAY 2021 - MAR 2022',
     },
     {
-        company: 'PeTIK',
-        position: 'Programming Lecturer',
-        duration: 'MAY 2022 - CURRENT',
+        company: 'Bangkit Academy',
+        position: 'Mobile Developer (Internship Remote)',
+        duration: 'OCT 2022 - JUN 2023',
     },
     {
-        company: 'PeTIK',
-        position: 'Full Stack Developer',
-        duration: 'MAY 2022 - CURRENT',
+        company: 'YBM PLN PeTIK',
+        position: 'Full Stack Developer & Instructor IT',
+        duration: 'MAY 2022 - APR 2024',
     },
 ]
 
