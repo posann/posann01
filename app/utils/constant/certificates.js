@@ -6,6 +6,11 @@ export const CERTIFICATES = [
       target: "_blank",
     },
     {
+      title: "Frontend Developer (React)",
+      link: "https://www.hackerrank.com/certificates/82adc4a22909",
+      target: "_blank",
+    },
+    {
       title: "Javascript Intermediate",
       link: "https://www.hackerrank.com/certificates/5df4af713e81",
       target: "_blank",
@@ -13,11 +18,6 @@ export const CERTIFICATES = [
     {
       title: "React Developer",
       link: "https://www.dicoding.com/certificates/GRX5QGN6KZ0M",
-      target: "_blank",
-    },
-    {
-      title: "Jetpack Compose",
-      link: "https://www.dicoding.com/certificates/QLZ9Q4K9EZ5D",
       target: "_blank",
     },
     {
